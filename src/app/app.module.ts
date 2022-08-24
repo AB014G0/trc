@@ -12,7 +12,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app.routing';
 import { ComponentsModule } from './components/components.module';
-
+import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   imports: [
@@ -21,6 +23,10 @@ import { ComponentsModule } from './components/components.module';
     HttpClientModule,
     ComponentsModule,
     NgbModule,
+    
+    MatFormFieldModule,
+    MatButtonModule,
+    MatSelectModule,
     RouterModule,
     AppRoutingModule
   ],
