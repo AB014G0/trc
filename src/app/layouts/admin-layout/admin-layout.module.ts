@@ -17,6 +17,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 @NgModule({
   imports: [
@@ -28,6 +29,7 @@ import {MatInputModule} from '@angular/material/input';
     MatFormFieldModule,
     MatButtonModule,
     MatSelectModule,
+    MatDatepickerModule,
     ClipboardModule,
     MatInputModule
   ],
